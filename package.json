@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "reuse-lint": "pipx run reuse lint",
+    "reuse-annotate": "pipx run reuse annotate --year 2023 --copyright 'Ruben Laguna <ruben.laguna@gmail.com>' --license GPL-3.0-or-later",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
