@@ -4,6 +4,7 @@
   "description": "Allow access the OS X Keychain Access via the OS X Security Framework native API",
   "main": "index.js",
   "scripts": {
+    "install": "node-gyp-build",
     "reuse-lint": "pipx run reuse lint",
     "reuse-annotate": "pipx run reuse annotate --year 2023 --copyright 'Ruben Laguna <ruben.laguna@gmail.com>' --license GPL-3.0-or-later",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,5 +19,9 @@
     "passwords"
   ],
   "author": "Ruben Laguna <ruben.laguna@gmail.com>",
-  "license": "GPL-3.0-or-later"
+  "license": "GPL-3.0-or-later",
+
+  "dependencies": {
+    "node-gyp-build": "^4.6.0"
+  }
 }

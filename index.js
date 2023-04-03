@@ -2,4 +2,5 @@
 //
 // SPDX-License-Identifier: GPL-3.0-or-later
 
-require("fs");
+var binding = require("node-gyp-build")(__dirname);
+module.exports = binding;
