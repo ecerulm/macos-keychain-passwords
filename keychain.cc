@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2023 Ruben Laguna <ruben.laguna@gmail.com>
+//
+// SPDX-License-Identifier: MIT
+
 // hello.cc
 #include <Security/Security.h>
 #include <node_api.h>

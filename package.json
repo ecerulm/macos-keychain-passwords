@@ -21,7 +21,7 @@
     "passwords"
   ],
   "author": "Ruben Laguna <ruben.laguna@gmail.com>",
-  "license": "GPL-3.0-or-later",
+  "license": "MIT",
   "dependencies": {
     "node-gyp-build": "^4.6.0"
   }
