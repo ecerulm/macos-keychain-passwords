@@ -1,6 +1,6 @@
 {
   "name": "macos-keychain-passwords",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Allow access the macOS X Keychain via the OS X Security Framework native API",
   "homepage": "https://github.com/ecerulm/macos-keychain-passwords",
   "main": "index.js",
