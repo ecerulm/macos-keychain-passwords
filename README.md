@@ -23,3 +23,7 @@ var keychain = require("macos-keychain-passwords");
 keychain.set_password("myservice_or_app", "myusername", "mypassword")
 keychain.get_password("myservice_or_app", "myusername") // returns "mypassword"
 ```
+
+# Links
+
+- [macos-keychain-passwords in npmjs.org](https://www.npmjs.com/package/macos-keychain-passwords)
