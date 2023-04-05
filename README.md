@@ -37,7 +37,7 @@ keychain.get_password("myservice_or_app", "myusername") // returns "mypassword"
 npm version patch # Bump the version
 npm run prebuild # runs prebuildify to generate the prebuilds/xxxx
 git push
-npm publissh
+npm publish
 ```
 
 # Links
