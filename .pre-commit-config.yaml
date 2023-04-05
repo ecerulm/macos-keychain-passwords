@@ -19,10 +19,14 @@ repos:
       - id: detect-aws-credentials
       - id: detect-private-key
   - repo: https://github.com/pre-commit/mirrors-clang-format
-    rev: "v16.0.0" # Use the sha / tag you want to point at
+    rev: "v16.0.0"
     hooks:
       - id: clang-format
   - repo: https://github.com/fsfe/reuse-tool
     rev: v1.1.2
     hooks:
       - id: reuse
+  - repo: https://github.com/pre-commit/mirrors-eslint
+    rev: "v8.37.0"
+    hooks:
+      - id: eslint
