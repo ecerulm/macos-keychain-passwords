@@ -24,6 +24,22 @@ keychain.set_password("myservice_or_app", "myusername", "mypassword")
 keychain.get_password("myservice_or_app", "myusername") // returns "mypassword"
 ```
 
+# TODO
+
+- Add `delete_password`
+- Add posibility of internet password (`kSecClassInternetPassword`) in addition to generic password (`kSecClassGenericPassword`)
+- Add callback API
+- Add Promise API
+
+# Instructions to npm publish
+
+```
+npm version patch # Bump the version
+npm run prebuild # runs prebuildify to generate the prebuilds/xxxx
+git push
+npm publissh
+```
+
 # Links
 
 - [macos-keychain-passwords in npmjs.org](https://www.npmjs.com/package/macos-keychain-passwords)
